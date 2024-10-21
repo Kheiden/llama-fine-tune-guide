@@ -1,8 +1,7 @@
 # llama-fine-tune-guide
 If you want to harness the power of the newly released Llama-3.2 lightweight models you're in the right place.
 
-From the blogpost: https://medium.com/@alexandros_chariton/how-to-fine-tune-llama-3-2-instruct-on-your-own-data-a-detailed-guide-e5f522f397d7
-
+From this [blogpost](https://medium.com/@alexandros_chariton/how-to-fine-tune-llama-3-2-instruct-on-your-own-data-a-detailed-guide-e5f522f397d7)
 
 ## Replace `data/sarcasm.csv` with Your Dataset
 
