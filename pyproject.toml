@@ -1,7 +1,7 @@
 [project]
-name = "llama-fine-tune-guide"
-version = "0.1.0"
-description = "Add your description here"
+name = "survival-model-1b"
+version = "1.0.0"
+description = "Provides succinct, wilderness survival advice"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
