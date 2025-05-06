@@ -24,3 +24,27 @@ uv add -r requirements.txt
 ```
 uv run --env-file .env python .\train_fine_tune.py
 ```
+
+```
+uv run --env-file .env python .\test_fine_tune.py
+```
+
+## Using with Ollama
+
+On the host machine
+```
+cd fine-tuned-model
+docker cp . ollama:/root/survival-model-1b
+```
+
+Within the docker container
+```
+bash -
+cd /root/survival-model-1b
+ollama create survival-model-1b
+```
+
+
+More info:
+https://github.com/ollama/ollama/blob/main/docs/import.md#Importing-a-model-from-Safetensors-weights
+
