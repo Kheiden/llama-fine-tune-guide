@@ -7,7 +7,7 @@ pipe = pipeline(
     device_map="auto",
 )
 messages = [
-    {"role": "user", "content": "Should I move to Scandinavia?"},
+    {"role": "user", "content": "I'm lost in the woods. How can I get home safe?"},
 ]
 outputs = pipe(
     messages,
