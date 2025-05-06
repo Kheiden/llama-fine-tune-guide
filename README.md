@@ -59,8 +59,17 @@ Gemini 2.0 Flash was used to generate question / answer pairs using the followin
 ```
 "Come up with a list of 100 questions that could be asked by an individual in a survival situation. do NOT repeat questions.
 Output the questions using newline delimiters and do NOT number the questions. Do not prefix the questions with any characters, instead add each question on each line"
+```
 
+```
 [GEMINI OUTPUTS TEXT]
+```
 
+```
 "Excellent. Now for each question in this list, provide an answer. Make sure to provide the answer directly following the question in CSV format "question","answer". Make sure to use double quotation marks over both the questions and the answers. Do not forget the comma. Add a newline character after each answer."
 ```
+
+
+## Attribution
+
+Forked from AlexandrosChrtn/llama-fine-tune-guide
