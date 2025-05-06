@@ -9,7 +9,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_id)
 tokenizer.pad_token = tokenizer.eos_token
 
 # Load the training dataset
-dataset = load_dataset("csv", data_files="data/sarcasm.csv", split="train")
+dataset = load_dataset("csv", data_files="data/survival.csv", split="train")
 
 # Define a function to apply the chat template
 def apply_chat_template(example):
