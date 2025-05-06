@@ -12,3 +12,15 @@ From this [blogpost](https://medium.com/@alexandros_chariton/how-to-fine-tune-ll
 4. **Test**: Test the model that was just fine-tuned by running ```python test_fine_tune.py```
 
 For my case, using `data/sarcasm.csv`, I generated this [masterpiece](https://huggingface.co/AlexandrosChariton/SarcasMLL-1B)
+
+---
+
+
+```
+uv init
+uv add -r requirements.txt
+```
+
+```
+uv run --env-file .env python .\train_fine_tune.py
+```
